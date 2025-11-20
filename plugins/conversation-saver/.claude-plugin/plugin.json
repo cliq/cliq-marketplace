@@ -1,0 +1,10 @@
+{
+  "name": "conversation-saver",
+  "version": "1.0.0",
+  "description": "Automatic conversation saving plugin built on the conversation-logger skill. Adds Stop hook for real-time saving and slash commands for searching conversation history.",
+  "author": {
+    "name": "Cliq Consulting",
+    "email": "hello@cliqconsulting.com"
+  },
+  "license": "MIT"
+}

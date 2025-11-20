@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cliq-marketplace",
+  "version": "1.0.0",
+  "description": "Opinionated plugins for Claude Code by Cliq Consulting",
+  "owner": {
+    "name": "Cliq Consulting",
+    "email": "hello@cliqconsulting.com"
+  },
+  "plugins": [
+    {
+      "name": "conversation-saver",
+      "description": "Automatic conversation saving plugin built on the conversation-logger skill. Adds Stop hook for real-time saving and slash commands for searching conversation history.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Cliq Consulting",
+        "email": "hello@cliqconsulting.com"
+      },
+      "source": "./plugins/conversation-saver",
+      "category": "productivity"
+    }
+  ]
+}

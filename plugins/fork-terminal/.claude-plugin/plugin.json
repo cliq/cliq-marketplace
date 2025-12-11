@@ -1,0 +1,10 @@
+{
+  "name": "fork-terminal",
+  "version": "1.0.0",
+  "description": "Fork your agentic coding tools to a new terminal window with context.",
+  "author": {
+    "name": "Cliq Consulting",
+    "email": "hello@cliqconsulting.com"
+  },
+  "license": "MIT"
+}

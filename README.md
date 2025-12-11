@@ -14,6 +14,7 @@ A handful of plugins for use with Claude Code.
 | Name | Purpose | Skills | Agents | Commands | Hooks | MCPs |
 |------|---------|--------|--------|----------|-------|------|
 | [conversation-saver](https://github.com/cliq/cliq-marketplace/plugins/conversation-saver) | Automatic conversation saving plugin built on the conversation-logger skill  | 0 | 0 | 3 | 1 | 0 |
+| [fork-terminal](https://github.com/cliq/cliq-marketplace/plugins/fork-terminal) | Fork your agentic coding tools to a new terminal window with context.  | 1 | 0 | 0 | 0 | 0 |
 
 
 # Contributing

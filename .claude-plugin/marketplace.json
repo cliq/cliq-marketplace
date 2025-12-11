@@ -18,6 +18,17 @@
       },
       "source": "./plugins/conversation-saver",
       "category": "productivity"
+    },
+      {
+      "name": "fork-terminal",
+      "description": "Fork your agentic coding tools to a new terminal window with context.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Cliq Consulting",
+        "email": "hello@cliqconsulting.com"
+      },
+      "source": "./plugins/fork-terminal",
+      "category": "productivity"
     }
   ]
 }

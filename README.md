@@ -15,6 +15,7 @@ A handful of plugins for use with Claude Code.
 |------|---------|--------|--------|----------|-------|------|
 | [conversation-saver](plugins/conversation-saver) | Automatic conversation saving plugin built on the conversation-logger skill  | 0 | 0 | 3 | 1 | 0 |
 | [fork-terminal](plugins/fork-terminal) | Fork your agentic coding tools to a new terminal window with context.  | 1 | 0 | 0 | 0 | 0 |
+| [mobiledev](plugins/mobiledev) | Orchestrator planning/implementation workflows for mobile (iOS/Android) with pinned-model sub-agents  | 2 | 2 | 0 | 0 | 0 |
 
 
 # Contributing

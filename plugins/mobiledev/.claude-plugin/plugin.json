@@ -1,0 +1,12 @@
+{
+  "name": "mobiledev",
+  "version": "1.0.0",
+  "description": "Orchestrator workflows for mobile engineering (iOS/Android): plan a feature from a ticket, PRD, or description, then implement it by delegating to pinned-model sub-agents (Opus reasoner, Sonnet worker).",
+  "author": {
+    "name": "Cliq Consulting",
+    "email": "hello@cliqconsulting.com"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

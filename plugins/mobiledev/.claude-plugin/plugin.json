@@ -6,7 +6,5 @@
     "name": "Cliq Consulting",
     "email": "hello@cliqconsulting.com"
   },
-  "license": "MIT",
-  "skills": "./skills/",
-  "agents": "./agents/"
+  "license": "MIT"
 }

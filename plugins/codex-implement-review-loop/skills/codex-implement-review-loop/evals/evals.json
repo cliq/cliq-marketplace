@@ -1,0 +1,24 @@
+{
+  "skill_name": "codex-implement-review-loop",
+  "notes": "Run in a sandbox git repo with a stub `codex` on PATH and SPAWN_DRY_RUN=1 exported, so no real codex sessions or terminal windows are created. Scripts also have direct functional tests (spawn dry-run cd/prompt passthrough; watcher commit+sentinel gating; end_session cwd-scoped kill).",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want codex to implement the REST API layer of this project session by session while you act as reviewer between sessions. Set up that codex implement/review loop here and kick it off.",
+      "expected_output": "NEXT_SESSION_HANDOFF.md created from the template with goal context, one bounded first task, recorded-decisions section, and the mandatory final steps (rewrite -> commit -> sentinel last); .codex-session-complete gitignored; spawn attempted via spawn_codex.sh; watcher armed.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "codex just finished a session in this repo — review what it did and continue the loop.",
+      "expected_output": "Detects the planted false claim (handoff says all 12 tests pass; committed test log shows 11/12), re-runs/reads the primary evidence, writes a dated '## Review (after commit <hash>)' section correcting it, and asks the user before committing/respawning rather than proceeding blindly.",
+      "files": ["sandbox repo: handoff v2 committed + test-output.log with one failing test + stale sentinel absent"]
+    },
+    {
+      "id": 3,
+      "prompt": "is the codex loop on this repo healthy? make sure we don't miss the end of the current session.",
+      "expected_output": "Finds the running stub codex by cwd (does NOT kill it, does NOT pattern-kill), arms watch_session.sh in the background, reports loop state.",
+      "files": ["sandbox repo with a stub codex process whose cwd is the repo"]
+    }
+  ]
+}

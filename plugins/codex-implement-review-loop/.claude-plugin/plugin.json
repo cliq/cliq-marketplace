@@ -1,0 +1,10 @@
+{
+  "name": "codex-implement-review-loop",
+  "version": "1.0.0",
+  "description": "Autonomous implement/review loop: Codex CLI executes handoff-driven work sessions, Claude adversarially reviews each session and gates decisions through the user.",
+  "author": {
+    "name": "Cliq Consulting",
+    "email": "hello@cliqconsulting.com"
+  },
+  "license": "MIT"
+}

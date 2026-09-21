@@ -9,6 +9,17 @@
   },
   "plugins": [
     {
+      "name": "implementation-progress",
+      "description": "A local, auto-refreshing implementation progress panel for Claude Code and Codex.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Cliq Consulting",
+        "email": "hello@cliqconsulting.com"
+      },
+      "source": "./plugins/implementation-progress",
+      "category": "productivity"
+    },
+    {
       "name": "conversation-saver",
       "description": "Automatic conversation saving plugin built on the conversation-logger skill. Adds Stop hook for real-time saving and slash commands for searching conversation history.",
       "version": "1.0.0",
@@ -19,7 +30,7 @@
       "source": "./plugins/conversation-saver",
       "category": "productivity"
     },
-      {
+    {
       "name": "fork-terminal",
       "description": "Fork your agentic coding tools to a new terminal window with context.",
       "version": "1.0.0",
@@ -29,6 +40,17 @@
       },
       "source": "./plugins/fork-terminal",
       "category": "productivity"
+    },
+    {
+      "name": "codex-implement-review-loop",
+      "description": "Autonomous implement/review loop: Codex CLI executes handoff-driven work sessions, Claude adversarially reviews each session and gates decisions through the user.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Cliq Consulting",
+        "email": "hello@cliqconsulting.com"
+      },
+      "source": "./plugins/codex-implement-review-loop",
+      "category": "development"
     },
     {
       "name": "mobiledev",

@@ -1,0 +1,10 @@
+{
+  "name": "implementation-progress",
+  "version": "1.0.0",
+  "description": "A local, auto-refreshing implementation progress panel for Claude Code and Codex.",
+  "author": {
+    "name": "Cliq Consulting",
+    "email": "hello@cliqconsulting.com"
+  },
+  "license": "MIT"
+}

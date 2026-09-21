@@ -1,0 +1,10 @@
+{
+  "name": "iphone-duo-readiness",
+  "version": "1.0.0",
+  "description": "Audit an iOS app for iPhone Duo (foldable iPhone) support and produce a prioritized, evidence-backed implementation plan.",
+  "author": {
+    "name": "Cliq Consulting",
+    "email": "hello@cliqconsulting.com"
+  },
+  "license": "MIT"
+}

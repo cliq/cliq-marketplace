@@ -1,0 +1,4 @@
+interface:
+  display_name: "iPhone Duo Readiness"
+  short_description: "Audit iOS apps and plan iPhone Duo support"
+  default_prompt: "Use $iphone-duo-readiness to audit this iOS app and produce a prioritized, evidence-backed plan for iPhone Duo support."

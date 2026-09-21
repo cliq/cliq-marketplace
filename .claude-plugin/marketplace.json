@@ -30,7 +30,7 @@
       "source": "./plugins/conversation-saver",
       "category": "productivity"
     },
-    {
+      {
       "name": "fork-terminal",
       "description": "Fork your agentic coding tools to a new terminal window with context.",
       "version": "1.0.0",
@@ -61,6 +61,17 @@
         "email": "hello@cliqconsulting.com"
       },
       "source": "./plugins/mobiledev",
+      "category": "development"
+    },
+    {
+      "name": "iphone-duo-readiness",
+      "description": "Audit an iOS app for iPhone Duo (foldable iPhone) support and produce a prioritized, evidence-backed implementation plan covering resizing, state continuity, reserved regions, arrangement views, and vertical bars.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Cliq Consulting",
+        "email": "hello@cliqconsulting.com"
+      },
+      "source": "./plugins/iphone-duo-readiness",
       "category": "development"
     }
   ]

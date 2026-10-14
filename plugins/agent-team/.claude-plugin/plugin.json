@@ -1,0 +1,10 @@
+{
+  "name": "agent-team",
+  "version": "1.0.0",
+  "description": "Coordinate pinned-model subagents with six bundled roles (worker, explorer, fixer, reviewer, specialist, default) for implementation, investigation, and review. Port of the Codex agent-team plugin.",
+  "author": {
+    "name": "Cliq Consulting",
+    "email": "hello@cliqconsulting.com"
+  },
+  "license": "MIT"
+}

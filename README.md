@@ -18,6 +18,7 @@ A handful of plugins for Claude Code, plus portable skills for Codex.
 | [mobiledev](plugins/mobiledev) | Orchestrator planning/implementation workflows for mobile (iOS/Android) with pinned-model sub-agents  | 2 | 2 | 0 | 0 | 0 |
 | [implementation-progress](plugins/implementation-progress) | Local, auto-refreshing progress dashboard for Claude Code or Codex | 1 | 0 | 0 | 0 | 0 |
 | [iphone-duo-readiness](plugins/iphone-duo-readiness) | Audit an iOS app for iPhone Duo (foldable iPhone) support and plan the fixes | 1 | 0 | 0 | 0 | 0 |
+| [agent-team](plugins/agent-team) | Technical-lead workflow that delegates coding work to six pinned-model subagents and runs an independent review | 1 | 6 | 0 | 0 | 0 |
 
 ## Implementation Progress: installation
 
@@ -172,6 +173,30 @@ directory your agent discovers: the workflow reads the rule catalog and reposito
 guide by relative path. Standalone copies do not auto-update — pull this repository and
 repeat the copy command. See the [iphone-duo-readiness README](plugins/iphone-duo-readiness/README.md)
 for the rule catalog and report format.
+
+## Agent Team: installation
+
+Turns the main agent into a technical lead: it decomposes substantial coding work,
+delegates independent pieces to six pinned-model subagents (worker, explorer, fixer,
+reviewer, specialist, default), integrates the results, and runs an independent review.
+Small or tightly coupled work stays with the lead. Claude Code only: the roles are
+Claude Code subagents, so there is no standalone skill or Codex install.
+
+```text
+/plugin marketplace add cliq/cliq-marketplace
+/plugin install agent-team@cliq-marketplace
+```
+
+Start a new session after install, then invoke:
+
+```text
+/agent-team:agent-team Implement this feature using focused subagents where useful.
+```
+
+The roles are also available directly as Agent tool `subagent_type` values, namespaced
+as `agent-team:worker`, `agent-team:reviewer`, and so on. The specialist role pins the
+`fable` model; if your account lacks it, switch that role to `opus`. See the
+[agent-team README](plugins/agent-team/README.md) for the role table and limits.
 
 # Contributing
 
